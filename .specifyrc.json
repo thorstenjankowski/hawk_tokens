@@ -1,5 +1,5 @@
 {
-  "repository": "@Volkswagen/hawk",
+  "repository": "@volkswagen/hawk",
   "head": "specify",
   "rules": [
     {
