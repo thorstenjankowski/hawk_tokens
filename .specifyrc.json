@@ -1,0 +1,18 @@
+{
+  "repository": "@volkswagen/GroupUI",
+  "head": "specify",
+  "rules": [
+    {
+      "name": "Design Tokens / Colors",
+      "path": "tailwind-theme.js",
+      "filter": {
+        "types": ["colors"]
+      },
+      "parsers": [
+        {
+          "name": "to-tailwind"
+        }
+      ]
+    }
+  ]
+}
