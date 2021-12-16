@@ -1,16 +1,22 @@
 {
-  "repository": "@volkswagen/hawk",
+  "repository": "@Volkswagen/hawk",
   "head": "specify",
   "rules": [
     {
       "name": "Design Tokens / Colors",
-      "path": "tailwind-theme.js",
-      "filter": {
-        "types": ["colors"]
+      "path": "assets/styles/variables/colors.css",
+      "filter":{
+        "types": ["color"]
       },
       "parsers": [
         {
-          "name": "to-tailwind"
+          "name": "sort-by",
+          "options": {
+            "keys": ["name"]
+          }
+        },
+        {
+          "name": "to-css-custom-properties"
         }
       ]
     }
