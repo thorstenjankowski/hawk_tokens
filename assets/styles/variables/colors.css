@@ -1,0 +1,241 @@
+:root {
+  /* COLOR */
+  --event-colors-event-blau-05: rgb(245, 244, 252);
+  --event-colors-event-blau-08: rgb(238, 238, 250);
+  --event-colors-event-blau-10: rgb(234, 234, 249);
+  --event-colors-event-blau-20: rgb(213, 212, 242);
+  --event-colors-event-blau-30: rgb(193, 191, 236);
+  --event-colors-event-blau-40: rgb(172, 170, 229);
+  --event-colors-event-blau-50: rgb(151, 148, 223);
+  --event-colors-event-blau-60: rgb(130, 127, 217);
+  --event-colors-event-blau-70: rgb(109, 106, 210);
+  --event-colors-event-blau-80: rgb(89, 85, 204);
+  --event-colors-event-blau-90: rgb(68, 63, 197);
+  --event-colors-event-grun: rgb(175, 202, 11);
+  --event-colors-event-grun-05: rgb(251, 252, 243);
+  --event-colors-event-grun-08: rgb(249, 251, 235);
+  --event-colors-event-grun-10: rgb(247, 250, 231);
+  --event-colors-event-grun-20: rgb(239, 244, 206);
+  --event-colors-event-grun-30: rgb(231, 239, 182);
+  --event-colors-event-grun-40: rgb(223, 234, 157);
+  --event-colors-event-grun-50: rgb(215, 228, 133);
+  --event-colors-event-grun-60: rgb(207, 223, 109);
+  --event-colors-event-grun-70: rgb(199, 218, 84);
+  --event-colors-event-grun-80: rgb(191, 213, 60);
+  --event-colors-event-grun-90: rgb(183, 207, 35);
+  --event-colors-event-magenta: rgb(230, 0, 126);
+  --event-colors-event-magenta-05: rgb(254, 242, 249);
+  --event-colors-event-magenta-08: rgb(253, 235, 245);
+  --event-colors-event-magenta-10: rgb(252, 229, 242);
+  --event-colors-event-magenta-20: rgb(250, 204, 229);
+  --event-colors-event-magenta-30: rgb(247, 179, 216);
+  --event-colors-event-magenta-40: rgb(245, 153, 203);
+  --event-colors-event-magenta-50: rgb(243, 128, 191);
+  --event-colors-event-magenta-60: rgb(240, 102, 178);
+  --event-colors-event-magenta-70: rgb(237, 77, 165);
+  --event-colors-event-magenta-80: rgb(235, 51, 152);
+  --event-colors-event-magenta-90: rgb(232, 26, 139);
+  --event-colors-primary-blue: rgb(47, 42, 191);
+  --primary-colors-primary-blue-dark-10: rgb(5, 4, 19);
+  --primary-colors-primary-blue-dark-20: rgb(9, 8, 38);
+  --primary-colors-primary-blue-dark-30: rgb(14, 13, 57);
+  --primary-colors-primary-blue-dark-40: rgb(19, 17, 76);
+  --primary-colors-primary-blue-dark-50: rgb(23, 21, 95);
+  --primary-colors-primary-blue-dark-60: rgb(28, 25, 115);
+  --primary-colors-primary-blue-dark-70: rgb(33, 29, 134);
+  --primary-colors-primary-blue-dark-80: rgb(38, 34, 153);
+  --primary-colors-primary-blue-dark-90: rgb(42, 38, 172);
+  --primary-colors-primary-dark: rgb(87, 87, 86);
+  --primary-colors-primary-dark-10: rgb(238, 238, 238);
+  --primary-colors-primary-dark-20: rgb(221, 221, 221);
+  --primary-colors-primary-dark-30: rgb(205, 205, 204);
+  --primary-colors-primary-dark-40: rgb(188, 188, 187);
+  --primary-colors-primary-dark-50: rgb(171, 171, 171);
+  --primary-colors-primary-dark-60: rgb(154, 154, 154);
+  --primary-colors-primary-dark-70: rgb(137, 137, 137);
+  --primary-colors-primary-dark-80: rgb(121, 121, 120);
+  --primary-colors-primary-dark-90: rgb(104, 104, 103);
+  --primary-colors-primary-light: rgb(255, 255, 255);
+  --primary-colors-primary-light-10: rgb(245, 245, 245);
+  --primary-colors-primary-light-20: rgb(246, 246, 246);
+  --primary-colors-primary-light-30: rgb(247, 247, 247);
+  --primary-colors-primary-light-40: rgb(248, 248, 248);
+  --primary-colors-primary-light-50: rgb(250, 250, 250);
+  --primary-colors-primary-light-60: rgb(251, 251, 251);
+  --primary-colors-primary-light-70: rgb(252, 252, 252);
+  --primary-colors-primary-light-80: rgb(253, 253, 253);
+  --primary-colors-primary-light-90: rgb(254, 254, 254);
+  --primary-colors-primary-medium: rgb(168, 173, 179);
+  --primary-colors-primary-medium-10: rgb(246, 247, 247);
+  --primary-colors-primary-medium-20: rgb(238, 239, 240);
+  --primary-colors-primary-medium-30: rgb(229, 230, 232);
+  --primary-colors-primary-medium-40: rgb(220, 222, 225);
+  --primary-colors-primary-medium-50: rgb(211, 214, 217);
+  --primary-colors-primary-medium-60: rgb(203, 206, 209);
+  --primary-colors-primary-medium-70: rgb(194, 198, 202);
+  --primary-colors-primary-medium-80: rgb(185, 189, 194);
+  --primary-colors-primary-medium-90: rgb(177, 181, 187);
+  --primary-colors-primary-mint: rgb(110, 223, 163);
+  --primary-colors-primary-mint-05: rgb(243, 252, 248);
+  --primary-colors-primary-mint-10: rgb(240, 252, 246);
+  --primary-colors-primary-mint-20: rgb(226, 249, 237);
+  --primary-colors-primary-mint-30: rgb(212, 246, 227);
+  --primary-colors-primary-mint-40: rgb(197, 242, 218);
+  --primary-colors-primary-mint-50: rgb(183, 239, 209);
+  --primary-colors-primary-mint-60: rgb(168, 236, 200);
+  --primary-colors-primary-mint-90: rgb(125, 226, 172);
+  --primary-colors-primary-mint-70: rgb(153, 233, 191);
+  --primary-colors-primary-mint-80: rgb(139, 229, 181);
+  --secondary-colors-bauen-und-erhalten-10: rgb(228, 233, 239);
+  --secondary-colors-bauen-und-erhalten: rgb(81, 131, 191);
+  --secondary-colors-bauen-und-erhalten-05: rgb(246, 249, 252);
+  --secondary-colors-bauen-und-erhalten-08: rgb(241, 245, 250);
+  --secondary-colors-bauen-und-erhalten-20: rgb(211, 221, 233);
+  --secondary-colors-bauen-und-erhalten-30: rgb(195, 210, 228);
+  --secondary-colors-bauen-und-erhalten-40: rgb(179, 199, 223);
+  --secondary-colors-bauen-und-erhalten-50: rgb(163, 187, 218);
+  --secondary-colors-bauen-und-erhalten-60: rgb(146, 176, 212);
+  --secondary-colors-bauen-und-erhalten-70: rgb(130, 165, 207);
+  --secondary-colors-bauen-und-erhalten-80: rgb(114, 154, 202);
+  --secondary-colors-bauen-und-erhalten-90: rgb(97, 142, 196);
+  --secondary-colors-gestaltung: rgb(246, 165, 0);
+  --secondary-colors-gestaltung-05: rgb(255, 250, 242);
+  --secondary-colors-gestaltung-08: rgb(254, 248, 235);
+  --secondary-colors-gestaltung-10: rgb(244, 236, 220);
+  --secondary-colors-gestaltung-20: rgb(244, 228, 195);
+  --secondary-colors-gestaltung-30: rgb(245, 220, 171);
+  --secondary-colors-gestaltung-40: rgb(245, 212, 146);
+  --secondary-colors-gestaltung-50: rgb(245, 205, 122);
+  --secondary-colors-gestaltung-60: rgb(245, 197, 98);
+  --secondary-colors-gestaltung-70: rgb(245, 189, 73);
+  --secondary-colors-gestaltung-80: rgb(246, 181, 49);
+  --secondary-colors-gestaltung-90: rgb(246, 173, 24);
+  --secondary-colors-ingenieurswissenschaften-und-gesundheit-10: rgb(
+    237,
+    231,
+    234
+  );
+  --secondary-colors-ingenieurswissenschaften-und-gesundheit-20: rgb(
+    230,
+    218,
+    223
+  );
+  --secondary-colors-ingenieurswissenschaften-und-gesundheit-30: rgb(
+    223,
+    204,
+    213
+  );
+  --secondary-colors-ingenieurswissenschaften-und-gesundheit-40: rgb(
+    216,
+    191,
+    202
+  );
+  --secondary-colors-ingenieurswissenschaften-und-gesundheit-50: rgb(
+    210,
+    178,
+    191
+  );
+  --secondary-colors-ingenieurswissenschaften-und-gesundheit-60: rgb(
+    203,
+    165,
+    181
+  );
+  --secondary-colors-ingenieurswissenschaften-und-gesundheit-70: rgb(
+    196,
+    152,
+    171
+  );
+  --secondary-colors-ingenieurswissenschaften-und-gesundheit-80: rgb(
+    189,
+    138,
+    160
+  );
+  --secondary-colors-ingenieurwissenschaften-und-gesundheit: rgb(175, 112, 139);
+  --secondary-colors-ingenieurwissenschaften-und-gesundheit-05: rgb(
+    251,
+    248,
+    249
+  );
+  --secondary-colors-ingenieurwissenschaften-und-gesundheit-08: rgb(
+    249,
+    244,
+    246
+  );
+  --secondary-colors-ingenieuwissenschaften-und-gesundheit-90: rgb(
+    182,
+    125,
+    149
+  );
+  --secondary-colors-management-soziale-arbeit-bauen: rgb(0, 157, 179);
+  --secondary-colors-management-soziale-arbeit-bauen-05: rgb(242, 250, 251);
+  --secondary-colors-management-soziale-arbeit-bauen-08: rgb(235, 247, 249);
+  --secondary-colors-management-soziale-arbeit-bauen-10: rgb(220, 235, 238);
+  --secondary-colors-management-soziale-arbeit-bauen-20: rgb(195, 227, 231);
+  --secondary-colors-management-soziale-arbeit-bauen-30: rgb(171, 218, 225);
+  --secondary-colors-management-soziale-arbeit-bauen-40: rgb(146, 209, 218);
+  --secondary-colors-management-soziale-arbeit-bauen-50: rgb(122, 201, 211);
+  --secondary-colors-management-soziale-arbeit-bauen-60: rgb(98, 192, 205);
+  --secondary-colors-management-soziale-arbeit-bauen-70: rgb(73, 183, 199);
+  --secondary-colors-management-soziale-arbeit-bauen-80: rgb(49, 174, 192);
+  --secondary-colors-management-soziale-arbeit-bauen-90: rgb(24, 166, 185);
+  --secondary-colors-ressourcenmanagement: rgb(185, 194, 67);
+  --secondary-colors-ressourcenmanagement-05: rgb(251, 252, 246);
+  --secondary-colors-ressourcenmanagement-08: rgb(249, 250, 240);
+  --secondary-colors-ressourcenmanagement-20: rgb(232, 234, 209);
+  --secondary-colors-ressourcenmanagement-30: rgb(226, 229, 191);
+  --secondary-colors-ressourcenmanagement-40: rgb(220, 224, 173);
+  --secondary-colors-ressourcenmanagement-50: rgb(215, 219, 156);
+  --secondary-colors-ressourcenmanagement-60: rgb(209, 214, 138);
+  --secondary-colors-ressourcenmanagement-70: rgb(203, 209, 120);
+  --secondary-colors-ressourcenmanagement-80: rgb(197, 204, 102);
+  --secondary-colors-ressourcenmanagement-90: rgb(191, 199, 85);
+  --secondary-colors-ressourcenmanagment-10: rgb(238, 239, 226);
+  --secondary-colors-soziale-arbeit-und-gesundheit: rgb(233, 81, 90);
+  --secondary-colors-soziale-arbeit-und-gesundheit-05: rgb(254, 246, 247);
+  --secondary-colors-soziale-arbeit-und-gesundheit-08: rgb(253, 241, 242);
+  --secondary-colors-soziale-arbeit-und-gesundheit-10: rgb(243, 228, 229);
+  --secondary-colors-soziale-arbeit-und-gesundheit-20: rgb(242, 211, 213);
+  --secondary-colors-soziale-arbeit-und-gesundheit-30: rgb(241, 195, 198);
+  --secondary-colors-soziale-arbeit-und-gesundheit-50: rgb(239, 163, 167);
+  --secondary-colors-soziale-arbeit-und-gesundheit-60: rgb(237, 146, 152);
+  --secondary-colors-soziale-arbeit-und-gesundheit-70: rgb(236, 130, 136);
+  --secondary-colors-soziale-arbeit-und-gesundheit-80: rgb(235, 114, 121);
+  --secondary-colors-soziale-arbeit-und-gesundheit-90: rgb(234, 97, 105);
+  --secondary-colors-soziale-arbeit-und-gsundheit-40: rgb(240, 179, 182);
+  --signal-colors-error: rgb(197, 15, 15);
+  --signal-colors-error-05: rgb(252, 243, 243);
+  --signal-colors-error-08: rgb(250, 236, 236);
+  --signal-colors-error-08: rgb(235, 249, 240);
+  --signal-colors-error-10: rgb(249, 231, 231);
+  --signal-colors-error-10: rgb(230, 247, 236);
+  --signal-colors-error-20: rgb(243, 207, 207);
+  --signal-colors-error-30: rgb(237, 183, 183);
+  --signal-colors-error-40: rgb(232, 159, 159);
+  --signal-colors-error-50: rgb(226, 135, 135);
+  --signal-colors-error-60: rgb(220, 111, 111);
+  --signal-colors-error-70: rgb(214, 87, 87);
+  --signal-colors-error-80: rgb(208, 63, 63);
+  --signal-colors-error-90: rgb(202, 39, 39);
+  --signal-colors-success: rgb(6, 176, 68);
+  --signal-colors-success-05: rgb(243, 251, 246);
+  --signal-colors-success-20: rgb(205, 239, 218);
+  --signal-colors-success-30: rgb(180, 231, 199);
+  --signal-colors-success-40: rgb(155, 224, 180);
+  --signal-colors-success-50: rgb(130, 216, 161);
+  --signal-colors-success-60: rgb(106, 208, 143);
+  --signal-colors-success-70: rgb(81, 200, 124);
+  --signal-colors-success-80: rgb(56, 192, 105);
+  --signal-colors-success-90: rgb(31, 184, 87);
+  --signal-colors-warning: rgb(255, 92, 0);
+  --signal-colors-warning-05: rgb(255, 247, 242);
+  --signal-colors-warning-08: rgb(255, 242, 235);
+  --signal-colors-warning-10: rgb(255, 239, 229);
+  --signal-colors-warning-20: rgb(255, 222, 204);
+  --signal-colors-warning-30: rgb(255, 206, 179);
+  --signal-colors-warning-40: rgb(255, 190, 153);
+  --signal-colors-warning-50: rgb(255, 173, 128);
+  --signal-colors-warning-60: rgb(255, 157, 102);
+  --signal-colors-warning-70: rgb(255, 141, 77);
+  --signal-colors-warning-80: rgb(255, 124, 51);
+  --signal-colors-warning-90: rgb(255, 108, 26);
+}
