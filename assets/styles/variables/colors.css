@@ -76,14 +76,14 @@
   --primary-colors-primary-medium-80: rgb(185, 189, 194);
   --primary-colors-primary-medium-90: rgb(177, 181, 187);
   --primary-colors-primary-mint: rgb(110, 223, 163);
-  --primary-colors-primary-mint-05: rgb(243, 252, 248);
+  --primary-colors-primary-mint-90: rgb(125, 226, 172);
+  --primary-colors-primary-mint-08: rgb(243, 252, 248);
   --primary-colors-primary-mint-10: rgb(240, 252, 246);
   --primary-colors-primary-mint-20: rgb(226, 249, 237);
   --primary-colors-primary-mint-30: rgb(212, 246, 227);
   --primary-colors-primary-mint-40: rgb(197, 242, 218);
   --primary-colors-primary-mint-50: rgb(183, 239, 209);
   --primary-colors-primary-mint-60: rgb(168, 236, 200);
-  --primary-colors-primary-mint-90: rgb(125, 226, 172);
   --primary-colors-primary-mint-70: rgb(153, 233, 191);
   --primary-colors-primary-mint-80: rgb(139, 229, 181);
   --secondary-colors-bauen-und-erhalten-10: rgb(228, 233, 239);
@@ -205,9 +205,7 @@
   --signal-colors-error: rgb(197, 15, 15);
   --signal-colors-error-05: rgb(252, 243, 243);
   --signal-colors-error-08: rgb(250, 236, 236);
-  --signal-colors-error-08: rgb(235, 249, 240);
   --signal-colors-error-10: rgb(249, 231, 231);
-  --signal-colors-error-10: rgb(230, 247, 236);
   --signal-colors-error-20: rgb(243, 207, 207);
   --signal-colors-error-30: rgb(237, 183, 183);
   --signal-colors-error-40: rgb(232, 159, 159);
@@ -218,6 +216,8 @@
   --signal-colors-error-90: rgb(202, 39, 39);
   --signal-colors-success: rgb(6, 176, 68);
   --signal-colors-success-05: rgb(243, 251, 246);
+  --signal-colors-success-08: rgb(235, 249, 240);
+  --signal-colors-success-10: rgb(230, 247, 236);
   --signal-colors-success-20: rgb(205, 239, 218);
   --signal-colors-success-30: rgb(180, 231, 199);
   --signal-colors-success-40: rgb(155, 224, 180);
